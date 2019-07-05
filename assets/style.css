@@ -1,0 +1,30 @@
+.nav > li:not(:last-child) {
+    border-right: 1px solid black;
+    box-sizing: border-box;
+}
+
+.navbar-light .navbar-brand {
+    color: white;
+    background-color: darkcyan;
+    
+}
+.navbar-brand {
+    display: inline-block;
+    font-size: 1.5rem;
+    line-height: inherit;
+    white-space: nowrap;
+    padding: 13px 10px 8px 10px;
+    margin-top: -8px;
+    
+}
+.bg-light {
+    background-color: white!important;
+}
+.navbar
+{
+    border-bottom: .5px solid #000;
+}
+
+.mb-1, .my-1 {
+    margin-bottom: -.5rem!important;
+}
