@@ -7,17 +7,29 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="assets/style.css">
     <title>Maiwand's Portfolio</title>
+    <style>
+        #header-color-blue {
+          color: #4aaaa5;
+        }
+        .container {
+          background-color: white;
+          padding: 25px;
+        }
+        
+        
+        
+      </style>
 </head>
 <body background="assets/email-pattern.png">
 <section>   
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <span class="navbar-brand mb-1 h1">Maiwand Gulham</span>
+        <span class="navbar-brand mb-1 h1" style="margin-left: 182px;">Maiwand Gulham</span>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-          <ul class="nav navbar-nav navbar-right">
+          <ul class="nav navbar-nav navbar-right" style="margin-right: 182px;">
             <li class="nav-item">
               <a class="nav-link" href="index.html">About</a>
             </li>
@@ -27,10 +39,41 @@
             <li class="nav-item">
               <a class="nav-link" href="contact.html">Contact</a>
 </section>    
-<section>
-        <h1>Contact</h1>
-    
+
+<section class="container">
+  <div class="row">
+    <div>
+    <h1 id="header-color-blue">Contact</h1>
+  </div>      
+</div>
+
+    <hr>
+  <section class="container">
+    <div class="row">   
+     <form class="col-lrg-9">
+        <div class="form-group">
+            <label for="exampleFormControlInput1">Name</label>
+            <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="Name">
+          </div>
+      <div class="form-group">
+          <label for="exampleFormControlInput1">Email address</label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+        </div>
+        <div class="form-group">
+          <label for="exampleFormControlTextarea1">Message</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="10"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary btn-lg" style="background:#4aaaa5">Submit</button>
+      </form>
+      
+  </div>  
+  </section>  
 </section>
-    
+     
+<footer class="page-footer font-small blue" style="background: #666666; margin-top: 15px; border-top: 8px solid #4aaaa5;">
+    <div class="footer-copyright text-center py-3">© 2019 Copyright </div>
+ 
+
+</footer>
 </body>
 </html>

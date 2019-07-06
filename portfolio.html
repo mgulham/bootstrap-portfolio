@@ -7,17 +7,29 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="assets/style.css">
     <title>Maiwand's Portfolio</title>
+    <style>
+        #header-color-blue {
+          color: #4aaaa5;
+        }
+        .container {
+          background-color: white;
+          padding: 25px;
+        }
+        
+        
+        
+      </style>
 </head>
 <body background="assets/email-pattern.png">
 <section>   
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <span class="navbar-brand mb-1 h1">Maiwand Gulham</span>
+        <span class="navbar-brand mb-1 h1" style="margin-left: 182px;">Maiwand Gulham</span>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-          <ul class="nav navbar-nav navbar-right">
+          <ul class="nav navbar-nav navbar-right" style="margin-right: 182px;">
             <li class="nav-item">
               <a class="nav-link" href="index.html">About</a>
             </li>
@@ -28,10 +40,41 @@
               <a class="nav-link" href="contact.html">Contact</a>
 </section>  
 
-<section>
-        <h1>Portfolio</h1>
+<section class="container">
+    <div >
+      <h1 id="header-color-blue">Portfolio</h1>
+      <hr>
+      <div class="row">
+              <div class="col-md-3">
+                      <img src="./assets/word-guess.jpg" alt="Word Guess" height="175px" width="175px" style="margin-top: 5px; margin-bottom: 5px;">
+                       
+              </div>
+              <div class="col-md-3">
+                      <img src="./assets/rpg.jpg" alt="RPG" height="175px" width="175px">
+                      
+              </div>
+              <div class="col-md-3">
+                      <img src="./assets/trivia.jpg" alt="Trivia" height="175px" width="175px">
+                      
+              </div>
+          </div>
+          <div class="row">
+                  <div class="col-md-3">
+                      <img src="./assets/info.jpg" alt="Info" height="175px" width="175px">
+                      
+                  </div>
+                  <div class="col-md-3">
+                      <img src="./assets/rps.jpg" alt="RPS" height="175px" width="175px">
+                      
+                  </div>
+          </div>
+      </div>
+</section> 
     
-</section>
-    
+<footer class="page-footer font-small blue" style="background: #666666; margin-top: 15px; border-top: 8px solid #4aaaa5;">
+    <div class="footer-copyright text-center py-3">© 2019 Copyright </div>
+ 
+
+</footer>
 </body>
 </html>
